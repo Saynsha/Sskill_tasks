@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header-top {
+    background-color: #FFC107;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.header-top .info {
+    color: #333;
+}
+.navbar {
+    background-color: #1A2526;
+}
+.navbar-brand {
+    color: #FFC107 !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #FFC107 !important;
+}
+.quote-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.quote-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.hero-section {
+    background: url('https://www.thelaunch.in/new_template/assets_new/css/micro_banner.png') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.hero-section .btn {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+.features-section {
+    padding: 40px 0;
+}
+.feature-card {
+    background-color: #1A2526;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.feature-card.yellow {
+    background-color: #FFC107;
+    color: #000;
+}
+.feature-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.feature-card p {
+    font-size: 14px;
+}
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
