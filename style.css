@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+table {
+  table-layout: auto;
+  margin: auto;
+}
+
+
+button{
+    background-color: aliceblue;
+    border: none;
+    color: rgb(1, 1, 1);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
